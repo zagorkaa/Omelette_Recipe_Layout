@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+.recipe{
+background-color: white;
+border-radius: 20px;
+width:60%;
+margin: 40px auto;
+
+}
+
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+}
+
+header{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header .recipe-image {
+    margin-top: 35px;
+width: 650px;
+border-radius: 20px;
+height: 400px;
+}
+
+ .recipe-content h1,
+.recipe-content p
+ {
+  margin: 20px 125px;
+}
+.recipe-content h1{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.prep-time{
+    margin: 20px 125px;
+    background-color: hsl(330, 100%, 98%);
+    height: 150px;
+    border-radius: 20px;
+    
+}
+
+.prep-time .prep-title,
+.prep-time .prep-list{
+    margin: 20px 30px;
+ 
+}
+
+.prep-time .prep-list li{
+margin:10px 20px;
+}
+
+.ingredients{
+    margin: 20px 125px;
+}
+.instructions{
+    margin: 20px 125px;
+
+}
+.nutrition table th,
+.nutrition table td {
+  padding: 12px 0;
+  text-align: left;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition {
+  margin: 20px 125px;
+}
+
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+ 
+}
+
+.nutrition-table td {
+  padding: 12px 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-table .value {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+ .nutrition .nutrition-description{
+    margin-left: 5px;
+}
+
